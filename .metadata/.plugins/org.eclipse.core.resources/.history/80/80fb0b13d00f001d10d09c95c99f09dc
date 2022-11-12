@@ -1,0 +1,9 @@
+package in.java8.streamapi;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Java8Programs {
+	List<Employee> empList = new ArrayList<>();
+	
+}

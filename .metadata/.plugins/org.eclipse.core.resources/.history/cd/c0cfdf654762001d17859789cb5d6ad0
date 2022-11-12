@@ -1,0 +1,13 @@
+package com.infosys;
+
+public class SingletonClassExample {
+
+	
+		private Singleton singleClassExample;
+		
+		private SingleClassExample();
+		
+		
+
+
+}

@@ -1,0 +1,5 @@
+package com.devcode.example.service;
+
+public interface ProductService {
+
+}

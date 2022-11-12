@@ -1,0 +1,26 @@
+package com.example.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.entity.Book;
+import com.example.demo.service.BookServiceImpl;
+
+@RestController
+@RequestMapping
+public class BookController {
+	
+	@Autowired
+	private BookServiceImpl bookServiceImpl;
+	
+	@PostMapping("/")
+	ResponseEntity<Book> addBook(Book book){
+		Book newBook = bookServiceImpl.createBook(book);
+		return new ResponseEntity<Book>(newBook, HttpStatus.CREATED);
+		
+	}
+}
