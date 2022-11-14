@@ -27,10 +27,6 @@ public class Java8Programs {
 			System.out.println("DeptId: "+emp.getKey()+","+emp.getValue());
 		});
 		
-		//Employee with 2nd highest salary
-		Map<Integer, List<Employee>> SecHighest = empList.stream().collect(Collectors.groupingBy(Employee::getSalary)).forEach((t, u) -> {
-			System.out.print(t.get);
-		});;
 
 	}
 }

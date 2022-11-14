@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
@@ -8,7 +7,6 @@
     <fullyQualifiedTypeName name="com.streamapi.Employee"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="javax.annotation.Generated"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.example.demo.service.BookService"/>
     <fullyQualifiedTypeName name="com.example.demo.service.BookServiceImpl"/>
     <fullyQualifiedTypeName name="com.example.demo.entity.Book"/>
@@ -45,4 +43,13 @@
     <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
     <fullyQualifiedTypeName name="springfox.documentation.RequestHandler"/>
     <fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.infosys.SingletonClassExample"/>
+    <fullyQualifiedTypeName name="com.designpattern.SingletonExample"/>
+    <fullyQualifiedTypeName name="com.comparatorcomparable.Employee"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
