@@ -1,5 +1,0 @@
-package com.devcode.example.exception;
-
-public class ResourceNotFoundException {
-
-}

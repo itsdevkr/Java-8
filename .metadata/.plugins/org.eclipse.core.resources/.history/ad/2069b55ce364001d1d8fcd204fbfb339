@@ -1,0 +1,24 @@
+package com.arrays;
+
+public class CheckDuplicate {
+
+	static void checkDup(int [] arr, int n) {
+		boolean flag = false;
+		for(int i=0; i<n; i++) {
+			int element = arr[i];
+			while(i<n) {
+				if(arr[i+1]==element) {
+					flag = true;
+					break;
+				}
+			}
+		}
+		System.out.println(flag);
+	}
+	public static void main(String[] args) {
+		int [] arr = {1,2,3,1};
+		//System.out.println(checkDup(arr, arr.length));
+		checkDup(arr, arr.length);
+	}
+
+}

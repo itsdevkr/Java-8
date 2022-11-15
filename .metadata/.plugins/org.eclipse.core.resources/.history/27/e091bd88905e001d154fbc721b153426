@@ -1,9 +1,0 @@
-package com.devcode.example.service;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.devcode.example.model.Product;
-
-public interface ProductService extends JpaRepository<Product, Long>{
-
-}

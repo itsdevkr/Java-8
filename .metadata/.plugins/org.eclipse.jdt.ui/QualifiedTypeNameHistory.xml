@@ -43,13 +43,15 @@
     <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
     <fullyQualifiedTypeName name="springfox.documentation.RequestHandler"/>
     <fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.infosys.SingletonClassExample"/>
     <fullyQualifiedTypeName name="com.designpattern.SingletonExample"/>
     <fullyQualifiedTypeName name="com.comparatorcomparable.Employee"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.arrays.MinMax.Pair"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
