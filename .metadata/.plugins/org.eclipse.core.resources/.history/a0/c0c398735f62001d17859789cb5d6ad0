@@ -1,8 +1,0 @@
-package com.comparatorcomparable;
-
-import java.util.Comparator;
-
-public class SortEmployeeByEidComparator implements Comparator<Employee>{
-
-	
-}
